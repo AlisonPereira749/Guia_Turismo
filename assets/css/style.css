@@ -1,0 +1,145 @@
+/* Icons */
+@import url(../fontawesome/css/all.min.css);
+
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+/* Perssonalização padrão */
+p {
+    color: #000;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+.cabecalho {
+    width: 100%;
+    height: 100vh;
+    color: rgba(0, 0, 0, 0.877);
+    background-image: url(../imagens/london.jpg);
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* nav */
+.cabecalho__menu {
+    background-color: #fff;
+    height: 55px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__links {
+    display: flex;
+    padding: 8px;
+}
+
+/* BUSCA VIAGENS */
+.buscar__viagem {
+   max-width: 850px;
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   position: relative;
+   top: 30%;
+}
+
+.buscar__vagas--cabecalho {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Titulo */
+.viagem__cabecalho {
+    background-color: #000;
+    color: #fff;
+    padding: 16px 0;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.viagem__cabecalho.opcao--active {
+    background: #f44336;
+}
+
+
+.container {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px 17px 30px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 300;
+}
+
+/* Titulo container */
+.viagem__title {
+    grid-column: span 2;
+    display: flex;
+    align-self: flex-end
+}
+
+.viagem__span {
+    display: flex;
+    align-self: flex-end
+}
+
+.viagem__input {
+    border: 1px solid rgba(0, 0, 0, 0.31);
+    padding: 0 5px;
+}
+
+.btn {
+    display: flex;
+    padding: 10px 30px;
+    max-width: 50%;
+    box-shadow: 2px 1px 5px 1px hsla(0, 0%, 0%, 0.49);
+    border-radius: 5px;
+    background-color: #ffe561;
+    color: #270570;
+    cursor: pointer;
+}
+
+/* Conteúdo principal   */
+.principal {
+    max-width: 1366px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.principal__subtitulo {
+    padding: 1.5rem 0;
+}
+
+strong {
+    font-weight: 700;
+}
+
+/* Seção de imagems */
+.oferta {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 12px;
+    box-sizing: border-box;
+}
+
+.oferta__img--torre {
+    grid-row: span 2;
+}
+
+.oferta img {
+}
