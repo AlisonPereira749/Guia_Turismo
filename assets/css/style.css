@@ -130,16 +130,37 @@ strong {
 
 /* Seção de imagems */
 .oferta {
+    margin: auto;
+    max-width: 1366px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 12px;
-    box-sizing: border-box;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
 }
 
-.oferta__img--torre {
+.box__img {
+    position: relative;
+}
+
+.oferta__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box__img-terre {
     grid-row: span 2;
+    width: 600px;
 }
 
-.oferta img {
+.caption p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 0.9rem;
+    background-color: #fff;
+    padding: 3px 5px;
+    border-radius: 2px;
 }
+
+ /* Explore a Natureza  */
