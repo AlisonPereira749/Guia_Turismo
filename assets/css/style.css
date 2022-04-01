@@ -6,7 +6,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300&display=swap');
 
 /* Perssonalização padrão */
-p {
+body {
+    background-color: #f1f1f1;
+}
+
+* {
+    box-sizing: border-box;
+}
+p, a {
     color: #000;
     font-family: 'Hind Madurai', sans-serif;
     font-size: 1.2rem;
@@ -163,4 +170,44 @@ strong {
     border-radius: 2px;
 }
 
- /* Explore a Natureza  */
+/* Explore a Natureza  */
+.explore {
+    max-width: 1366px;
+}
+
+.explore__img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 12px;
+}
+
+.imagens {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.div-infor {
+    padding-left: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+    background-color: white;
+}
+
+.explore__title {
+     padding-top: 16px;
+}
+
+.explore__price {
+    font-family: 'Hind Madurai', sans-serif;
+    color: hsla(0, 0%, 0%, 0.6);
+}
+
+.explore__text {
+    font-weight: 300;
+}
+
+.explore__compartilhar {
+    padding-left: 16px;
+}
