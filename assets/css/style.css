@@ -8,6 +8,7 @@
 /* Perssonalização padrão */
 body {
     background-color: #f1f1f1;
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 * {
@@ -15,7 +16,6 @@ body {
 }
 p, a {
     color: #000;
-    font-family: 'Hind Madurai', sans-serif;
     font-size: 1.2rem;
 }
 
@@ -23,6 +23,11 @@ h2 {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     font-size: 1.8rem;
+}
+
+h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
 }
 .cabecalho {
     width: 100%;
@@ -88,7 +93,6 @@ h2 {
     grid-template-rows: repeat(4, 1fr);
     gap: 10px;
     padding: 10px 17px 30px;
-    font-family: 'Hind Madurai', sans-serif;
     font-weight: 300;
 }
 
@@ -172,13 +176,20 @@ strong {
 
 /* Explore a Natureza  */
 .explore {
-    max-width: 1366px;
+    margin: 50px 0;
 }
 
 .explore__img {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 12px;
+    grid-gap: 10px;
+}
+
+.explore--items {
+    background-color: #ffffff;
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-gap: 10px;
 }
 
 .imagens {
@@ -188,26 +199,57 @@ strong {
 }
 
 .div-infor {
-    padding-left: 8px;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 16px;
-    background-color: white;
-}
-
-.explore__title {
-     padding-top: 16px;
+    row-gap: 15px;
+    padding: 0 0 50px 10px;
 }
 
 .explore__price {
-    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1rem;
     color: hsla(0, 0%, 0%, 0.6);
 }
 
-.explore__text {
+.explore__compartilhar {
+    padding-left: 10px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.explore__compartilhar:hover {
+    text-decoration: underline;
+}
+
+/* SECTION SE INSCREVA */
+.subscribe {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.subscribe__container {
+    background-color: #606060;
+    color: #fff;
+    margin: auto;
+    width: 50%;
+    padding: 24px 15px 50px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 16px;
+}
+
+.subscribe__text {
+    color: #fff;
     font-weight: 300;
 }
 
-.explore__compartilhar {
-    padding-left: 16px;
+.subscribe__input {
+    border: 1px solid rgba(0, 0, 0, 0.31);
+    padding: 10px 5px;
 }
+
+.botao--subscribe {
+   width: 20%;
+   font-weight: 400;
+}
+
+/* SECTION CONTATO */

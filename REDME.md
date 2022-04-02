@@ -10,7 +10,10 @@ Tamanho do dispositivo desktop: `1366px`
 ---
 # Cores
 Sobra : `2px 1px 5px 1px hsla(0, 0%, 0%, 0.49);`
+
 Cabeçalho: `#270570`
+
+Box-subscribe: `#606060`
 
 Box Email: `#a680ff`
 
