@@ -9,7 +9,7 @@ Tamanho do dispositivo tablet: `768px`
 Tamanho do dispositivo desktop: `1366px`
 ---
 # Cores
-Sobra : `2px 1px 5px 1px hsla(0, 0%, 0%, 0.49);`
+box-shadow:`2px 1px 5px 1px hsl(0deg 0% 0% / 22%);;`
 
 Cabeçalho: `#270570`
 

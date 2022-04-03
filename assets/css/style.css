@@ -85,6 +85,27 @@ h4 {
     background: #f44336;
 }
 
+.cabecalho--ico2::before {
+    font-family: 'fontawesome';
+    content: "\f072";
+    margin-right: 8px;
+    font-size: 1rem;
+}
+
+.cabecalho--ico3::before {
+    font-family: 'fontawesome';
+    content: "\f236";
+    margin-right: 8px;
+    font-size: 1rem;
+}
+
+.cabecalho--ico4::before {
+    font-family: 'fontawesome';
+    content: "\f1b9";
+    margin-right: 8px;
+    font-size: 1rem;
+}
+
 
 .container {
     background-color: #fff;
@@ -117,7 +138,7 @@ h4 {
     display: flex;
     padding: 10px 30px;
     max-width: 50%;
-    box-shadow: 2px 1px 5px 1px hsla(0, 0%, 0%, 0.49);
+    box-shadow: 2px 1px 5px 1px hsl(0deg 0% 0% / 22%);
     border-radius: 5px;
     background-color: #ffe561;
     color: #270570;
@@ -253,3 +274,105 @@ strong {
 }
 
 /* SECTION CONTATO */
+.contact {
+    padding-left: 8px;
+    display: grid;
+    row-gap: 10px;
+    max-width: 40%;
+}
+
+.contact p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.contact__local::before {
+    font-family: 'fontawesome';
+    content: "\f3c5";
+    margin-right: 10px;
+    font-size: 1rem;
+}
+.contact__phone::before {
+    font-family: 'fontawesome';
+    content: "\f095";
+    margin-right: 10px;
+    font-size: 1rem;
+}
+.contact__mail::before {
+    font-family: 'fontawesome';
+    content: "\f0e0";
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+.contact input {
+    padding: 8px;
+}
+
+.contact--enviar {
+    margin: 10px 0;
+    max-width: 30%;
+}
+
+/* MIDIAS SOCIAIS */
+.midias {
+    width: 100%;
+}
+
+.social__midias {
+    margin: auto;
+    padding: 50px ;
+    text-align: center;
+}
+
+.midias__title {
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.item--facebook::before {
+    font-family: "Fontawesome";
+    content: "\f082";
+    font-size: 2rem;
+    margin-right: 8px;
+}
+
+.item--instagram::before {
+    font-family: "Fontawesome";
+    content: "\f16d";
+    font-size: 2rem;
+    margin-right: 8px;
+}
+
+.item--snapchat::before {
+    font-family: "Fontawesome";
+    content: "\f2ad";
+    font-size: 2rem;
+    margin-right: 8px;
+}
+
+.item--pinterest::before {
+    font-family: "Fontawesome";
+    content: "\f0d2";
+    font-size: 2rem;
+    margin-right: 8px;
+}
+
+.item--twitter::before {
+    font-family: "Fontawesome";
+    content: "\f099";
+    font-size: 2rem;
+    margin-right: 8px;
+}
+
+.item--linkedin::before {
+    font-family: "Fontawesome";
+    content: "\f0e1";
+    font-size: 2rem;
+}
+
+.referencia {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 20px;
+}
