@@ -52,7 +52,29 @@ h4 {
 
 .menu__links {
     display: flex;
-    padding: 8px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.menu__iconO::before {
+    font-family: 'fontawesome';
+    content: "\25";
+    margin-right: 5px;
+    font-size: 1rem;
+}
+
+.menu__iconE::before {
+    font-family: "fontawesome";
+    content: "\f14e";
+    margin-right: 5px;
+    font-size: 1rem;
+}
+
+.menu__iconC::before {
+    font-family: "fontawesome";
+    content: "\f095";
+    margin-right: 5px;
+    font-size: 1rem;
 }
 
 /* BUSCA VIAGENS */
@@ -152,8 +174,12 @@ h4 {
     margin-top: 50px;
 }
 
+.principal__title {
+    padding-left: 10px;
+}
+
 .principal__subtitulo {
-    padding: 1.5rem 0;
+    padding: 1.5rem 0 1.5rem 10px;
 }
 
 strong {
@@ -161,7 +187,7 @@ strong {
 }
 
 /* Seção de imagems */
-.oferta {
+#oferta {
     margin: auto;
     max-width: 1366px;
     display: grid;
@@ -196,7 +222,7 @@ strong {
 }
 
 /* Explore a Natureza  */
-.explore {
+#explore {
     margin: 50px 0;
 }
 
@@ -274,8 +300,8 @@ strong {
 }
 
 /* SECTION CONTATO */
-.contact {
-    padding-left: 8px;
+#contact {
+    padding-left: 10px;
     display: grid;
     row-gap: 10px;
     max-width: 40%;
@@ -305,8 +331,8 @@ strong {
     font-size: 1rem;
 }
 
-.contact input {
-    padding: 8px;
+.contact__input {
+    padding: 5px 5px;
 }
 
 .contact--enviar {

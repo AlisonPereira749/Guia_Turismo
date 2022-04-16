@@ -52,6 +52,10 @@ font-family: 'fontawesome';
 
 Pesquisa: `\f002`
 
+Explorar: `\f14e`
+
+Oferta: `\25`
+
 Avião: `\f072`
 
 Cama: `\f236`

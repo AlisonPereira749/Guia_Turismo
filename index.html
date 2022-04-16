@@ -25,9 +25,9 @@
                 <a href="#" class="menu__logo">Logo</a>
 
                 <div class="menu__links">
-                    <a href="#" class="menu__links"><p class="menu__itens">Contato</p></a>
-                    <a href="#" class="menu__links"><p class="menu__itens">Ofertas</p></a>
-                    <a href="#" class="menu__links"><p class="menu__itens">Explorar</p></a>
+                    <a href="#oferta" class="menu__links"><p class="menu__iconO">Offer</p></a>
+                    <a href="#explore" class="menu__links"><p class="menu__iconE">Explore</p></a>
+                    <a href="#contact" class="menu__links"><p class="menu__iconC">Contact</p></a>
                 </div>
             </nav>
 
@@ -52,7 +52,8 @@
         <main class="principal">
             <h2 class="principal__title">Good Offers Right Now</h2>
             <p class="principal__subtitulo">Up to <strong>50%</strong> discount.</p>
-            <section class="oferta">
+
+            <section id="oferta">
                 <div class="box__img box__img-terre">
                     <img class="oferta__img img--terre" src="./assets/imagens/cinqueterre.jpg" alt="Cique Terre">
                     <div class="caption">
@@ -90,7 +91,7 @@
             </section>
 
             <!-- Explore a Natureza -->
-            <section class="explore">
+            <section id="explore">
                 <h2 class="principal__title explore__title">Explore Nature</h2>
                 <p class="principal__subtitulo">Travel with us and see nature at its finest.</p>
 
@@ -128,15 +129,15 @@
             </section>
 
             <!-- SECTION CONTATO -->
-            <section class="contact">
+            <section id="contact">
                 <h2 class="contact__title">Contact</h2>
                 <p>Les us book your next trip!</p>
                 <p class="contact__local">Chicago, US</p>
                 <p class="contact__phone">Phone: 00 00000-0000</p>
                 <p class="contact__mail">Email: mail@mail.com</p>
-                <input type="text" name="text" id="text" placeholder="Name">
-                <input type="email" name="mail" id="mail" placeholder="Email">
-                <input type="text" name="message" id="message" placeholder="Message">
+                <input class="contact__input" type="text" name="text" id="text" placeholder="Name">
+                <input class="contact__input" type="email" name="mail" id="mail" placeholder="Email">
+                <input class="contact__input" type="text" name="message" id="message" placeholder="Message">
                 <button class="btn contact--enviar" type="submit">Send Message</button>
             </section>
             <footer class="midias">
