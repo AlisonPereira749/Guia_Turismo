@@ -1,54 +1,51 @@
-## Todos os detalhes do projeto!
+# Todos os detalhes do projeto!
 
----
-# Tamanhos
+> ### Largura dos dispositivos 
 
-Tamanho do dispositivo mobile: `320px`
-Tamanho do dispositivo mobile: `450px`
-Tamanho do dispositivo tablet: `768px`
-Tamanho do dispositivo desktop: `1366px`
----
-# Cores
-box-shadow:`2px 1px 5px 1px hsl(0deg 0% 0% / 22%);;`
+* Tamanho do dispositivo mobile: **320px**
+* Tamanho do dispositivo mobile: **450px**
+* Tamanho do dispositivo tablet: **768px**
+* Tamanho do dispositivo desktop: **1366px**
 
-Cabeçalho: `#270570`
+<br/>
 
-Box-subscribe: `#606060`
+> ### Cores
 
-Box Email: `#a680ff`
+* box-shadow:`2px 1px 5px 1px hsl(0deg 0% 0% / 22%);;`
 
-Botões: `#ffe561`
+* Cabeçalho: `#270570`
 
-Facebook: `#4867aa`
+* Box-subscribe: `#606060`
 
-Instagram: `#ba399e`
+* Box Email: `#a680ff`
 
-Snapchat: `#f7f300`
+* Botões: `#ffe561`
 
-Pinterest: `#cc2127`
+* Facebook: `#4867aa`
 
-Twitter: `#1da1f2`
+* Instagram: `#ba399e`
 
-Linkedin: `#2867b2`
----
+* Snapchat: `#f7f300`
 
-# Fontes
+* Pinterest: `#cc2127`
 
-```css
-@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
-font-family: 'Hind Madurai', sans-serif;
+* Twitter: `#1da1f2`
 
+* Linkedin: `#2867b2`
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300&display=swap');
-font-family: 'Ubuntu', sans-serif;
-```
----
+<br/>
 
-# Icons
-```css
-@import url(/fontawesome-free-6.1.1-web/css/all.min.css)
-font-family: 'fontawesome';
-```
+> ### Fontes
+
+Para esse projeto usei duas famílias de fontes que encontrei no [Google Fonts](https://fonts.google.com/), foram elas:
+* Hind Madurai
+* Ubuntu
+
+<br/>
+
+> ### Ícones
+
+Utilizei os Ícones da biblioteca [fontawesome](https://fontawesome.com/)
 
 Pesquisa: `\f002`
 
@@ -69,8 +66,15 @@ Telefone: `\f095`
 Email: `\f0e0`
 
 Facebook: `\f082`
+
 instagram: `\f16d`
+
 Snapchat: `\f2ad`
+
 Pinterest: `\f0d2`
+
 Twitter: `\f099`
+
 Linkdin: `\f0e1`
+
+<br/>
